@@ -20,23 +20,22 @@
 </template>
 
 <script setup>
-
 useSeoMeta({
-  title: 'Hato | Minimal Portfolio Showcase',
-  ogTitle: 'Hato | Minimal Portfolio Showcase',
+  title: '2600 Studios by Charles Dupilpil',
+  ogTitle: '2600 Studios by Charles Dupilpil',
   description:
-    'Discover Hato, the sleek portfolio website perfect for freelancers, photographers, and artists made with Nuxt UI',
+    'Portfolio of Charles Dupilpil, specializing in minimalist, high-contrast brand identities and professional photography.',
   ogDescription:
-    'Discover Hato, the sleek portfolio website perfect for freelancers, photographers, and artists made with Nuxt UI',
-  ogImage: "https://res.cloudinary.com/dkr1hluva/image/upload/v1713023084/og/og-hato_roec1l.jpg",
-  ogImageSecureUrl: 'https://res.cloudinary.com/dkr1hluva/image/upload/v1713023084/og/og-hato_roec1l.jpg',
-  ogUrl: 'https://res.cloudinary.com/dkr1hluva/image/upload/v1713023084/og/og-hato_roec1l.jpg',
-  twitterImage: "https://res.cloudinary.com/dkr1hluva/image/upload/v1713023084/og/og-hato_roec1l.jpg",
+    'Portfolio of Charles Dupilpil, specializing in minimalist, high-contrast brand identities and professional photography.',
+  ogImage: "https://images.ctfassets.net/45juk84rr26h/2mBmdMuLl0t15J3Ck8F74p/5b4af1bdf943464302a3694f41baed5b/1.jpg",
+  ogImageSecureUrl: 'https://images.ctfassets.net/45juk84rr26h/2mBmdMuLl0t15J3Ck8F74p/5b4af1bdf943464302a3694f41baed5b/1.jpg',
+  ogUrl: 'https://2600studios.com',
+  twitterImage: "https://images.ctfassets.net/45juk84rr26h/2mBmdMuLl0t15J3Ck8F74p/5b4af1bdf943464302a3694f41baed5b/1.jpg",
   twitterCard: "summary_large_image",
-  twitterTitle: 'Hato | Minimal Portfolio Showcase',
-  twitterDescription: 'Discover Hato, the sleek portfolio website perfect for freelancers, photographers, and artists made with Nuxt UI',
-  ogImageWidth: 1280,
-  ogImageHeight: 720,
+  twitterTitle: '2600 Studios by Charles Dupilpil',
+  twitterDescription: 'Portfolio of Charles Dupilpil, specializing in minimalist, high-contrast brand identities and professional photography.',
+  ogImageWidth: 1810,
+  ogImageHeight: 1792,
 });
 
 useHead({

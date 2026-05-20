@@ -1,20 +1,20 @@
-![cover-sokol-background](/public/hato-light.jpg)
+![2600-studios-cover](/public/images/portfolio-3.webp)
 
-# Hato | Minimal Portfolio Showcase with Nuxt UI
+# 2600 Studios | Minimalist Portfolio Showcase
 
-Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui.nuxt.com) to learn more.
+Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui.nuxt.com) to learn more about the underlying framework.
 
-- [Demo here](https://hato-template.vercel.app/)
+- [Live Website](https://2600studios.com)
 
 ## About
 
-A minimal and elegant template, created with the purpose of serving as a landing page or one-page template, designed for those seeking simplicity and impeccably crafted web elements.
+A high-contrast, strictly monochrome portfolio website designed and developed for **2600 Studios**. Built to showcase professional event photography, high-volume image curation, and geometric brand identities. 
 
-Tailored for designers, agencies, or studios, this template is built with Nuxt 4, Nuxt UI v4, and TailwindCSS, bringing the best of web technology to the forefront.
+Customized by Charles Dupilpil from the Hato template, this build prioritizes simplicity, high-resolution media handling, and a stark black-and-white aesthetic. Powered by Nuxt 4 and TailwindCSS.
 
 - **Pages:** 1
 - **Sections:** 1
-- **Components:** 7
+- **Primary Configuration:** `app.config.ts`
 
 ## Features
 
@@ -22,63 +22,28 @@ Tailored for designers, agencies, or studios, this template is built with Nuxt 4
 - [Nuxt UI v4](https://ui.nuxt.com/) - A UI Library for Modern Web Apps.
 - [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes.
 - [VueUse/Motion](https://motion.vueuse.org/) - Composables putting your components in motion.
-- [Nuxt Image](https://image.nuxt.com/) - Image optimization for Nuxt apps..
-- [Simple Icons & Heroicons](https://github.com/simple-icons/simple-icons) - Integration with Simple Icons & Heroicons.
+- [Nuxt Image](https://image.nuxt.com/) - Image optimization and dynamic rendering for high-resolution photography.
 - [Vite](https://vitejs.dev/) - Powered by Vite, instant HMR.
 - `<script setup lang="ts">` syntax with TypeScript support.
 
 ## Specifications
 
-- **Price:** Free
-- **Released date:** 13/04/23
-- **Version:** 0.1
-- **Tech Stack:** Nuxt 4 & Nuxt UI v4 & TailwindCSS
-- **Category:** Portfolio
-- **Page Speed:** 90 / 100 / 100 / 90
+- **Project:** 2600 Studios Portfolio
+- **Author:** Charles Dupilpil
+- **Released date:** May 2026
+- **Version:** 1.0.0
+- **Tech Stack:** Nuxt 4, Nuxt UI v4, TailwindCSS
+- **Aesthetic:** Minimalist, High-Contrast Monochrome
 - **Compatibility:** Chrome, Firefox, Safari, Brave, Arc, Edge
 
-## Folder and Component Structrue
+## Folder and Component Structure
 
-The components that are used are inside the `components` folder and each one is used in the `app.vue` file.
+The dynamic data for this portfolio (including gallery images, contact info, and profile details) is managed centrally in `app.config.ts`. The UI components are located inside the `components` folder and injected into `app.vue`.
 
 ```bash
 # src/components/
- - Component1 (SFC a.k.a .vue file)
- - Component2 (SFC a.k.a .vue file)
-```
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+ - LazyPhotoProfile.vue
+ - LazyMyInfo.vue
+ - LazySocialNetwork.vue
+ - LazyGallery.vue
+ - LazyFooter.vue

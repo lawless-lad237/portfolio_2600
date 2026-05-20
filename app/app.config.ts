@@ -7,10 +7,9 @@ export default defineAppConfig({
   },
   data: {
     name: '2600 Studios by Charles Dupilpil',
-    photo:
-      'https://images.ctfassets.net/45juk84rr26h/2mBmdMuLl0t15J3Ck8F74p/5b4af1bdf943464302a3694f41baed5b/1.jpg',
+    photo: 'https://d3ynb031qx3d1.cloudfront.net/general-demos/demo-gallery-10.webp',
     title: 'Photographer',
-    bio: 'Documenting scenes from everyday life — Brisbane-based events and branding photographer.',
+    bio: 'I create minimalist, high-contrast visual stories for brands, people, and events.',
     website: 'https://2600studios.com',
     phone: '+61 469 053 763',
     email: 'hello@2600studios.com',

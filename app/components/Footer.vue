@@ -3,15 +3,15 @@
         <footer class="flex items-center justify-evenly py-12 relative z-20">
             <NuxtLink :to="`mailto:${email}`"
                 class="text-sm text-zinc-700 hover:text-zinc-950 dark:text-zinc-50/80 hover:dark:text-zinc-50">
-                {{ email }}
+                {{ hello@2600studios.com }}
             </NuxtLink>
             <NuxtLink to="https://github.com/cesswhite/hato-minimal-template" target="_blank"
                 class="text-sm text-zinc-700 hover:text-zinc-950 dark:text-zinc-50/80 hover:dark:text-zinc-50">
-                Download Hato | Free Template
+                2600 Studios by Charles Dupilpil
             </NuxtLink>
             <NuxtLink :to="`tel:${phone}`"
                 class="text-sm text-zinc-700 hover:text-zinc-950 dark:text-zinc-50/80 hover:dark:text-zinc-50">
-                {{ phone }}
+                {{ +61 469 053 763 }}
             </NuxtLink>
         </footer>
     </UContainer>

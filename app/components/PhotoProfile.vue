@@ -1,9 +1,9 @@
-<template>
-    <NuxtImg :src="photo" alt="my-profile-photo" height="400" width="400" fit="cover"
-        class="rounded-full size-26 object-cover object-center" />
-</template>
-
-<script setup>
-const app = useAppConfig();
-const { data: { photo } } = app
-</script>
+export default defineNuxtConfig({
+  // ... your other modules and settings
+  image: {
+    domains: [
+      'images.ctfassets.net',
+      'res.cloudinary.com' // Keeping this if your other default images still use Cloudinary
+    ]
+  }
+})
